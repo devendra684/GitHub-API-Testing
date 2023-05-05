@@ -1,9 +1,9 @@
 ///<reference types="Cypress"/>
  
 const Base_Url = "https://api.github.com";
-const username = "devendra684"; 
-// const token = "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";
-const token = "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";
+const username = "devendra684";  
+// const token = "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";
+const token = "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";
 
 var RepoName = "GitHub-RestAPI";
 var RepoDescription = "This repo is created using the GitHub RestAPI";
@@ -264,10 +264,6 @@ describe("Get repository details from GitHub", () => {
             Authorization: `Bearer ${token}`,
             accept: "application/json",
           },
-        // auth: {
-        //   username: username,
-        //   password: token
-        // },
         body: {
           "names": [
               "git",
