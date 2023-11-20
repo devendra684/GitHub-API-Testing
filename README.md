@@ -1,6 +1,6 @@
 # GitHub-API-Testing
 
-Github rest api testing with Cypress 
+Github rest API testing with Cypress and Postman
 
 Postman Report
 
